@@ -1,0 +1,496 @@
+{
+ "language": "pt-br",
+ "segments": [
+  {
+   "duration": 26.87,
+   "language": "pt-br",
+   "speaker": "s1",
+   "start": 0,
+   "words": [
+    {
+     "confidence": 1,
+     "duration": 0.36,
+     "eos": false,
+     "start": 0.0,
+     "tags": [],
+     "text": "Quem",
+     "type": "word"
+    },
+    {
+     "confidence": 1,
+     "duration": 0.45,
+     "eos": false,
+     "start": 0.4,
+     "tags": [],
+     "text": "atende",
+     "type": "word"
+    },
+    {
+     "confidence": 1,
+     "duration": 0.32,
+     "eos": false,
+     "start": 0.89,
+     "tags": [],
+     "text": "bem",
+     "type": "word"
+    },
+    {
+     "confidence": 1,
+     "duration": 0.4,
+     "eos": false,
+     "start": 1.24,
+     "tags": [],
+     "text": "vende",
+     "type": "word"
+    },
+    {
+     "confidence": 1,
+     "duration": 0.36,
+     "eos": true,
+     "start": 1.69,
+     "tags": [],
+     "text": "mais.",
+     "type": "word"
+    },
+    {
+     "confidence": 1,
+     "duration": 0.36,
+     "eos": false,
+     "start": 2.6,
+     "tags": [],
+     "text": "Isso",
+     "type": "word"
+    },
+    {
+     "confidence": 1,
+     "duration": 0.45,
+     "eos": false,
+     "start": 3.0,
+     "tags": [],
+     "text": "parece",
+     "type": "word"
+    },
+    {
+     "confidence": 1,
+     "duration": 0.49,
+     "eos": false,
+     "start": 3.49,
+     "tags": [],
+     "text": "simples,",
+     "type": "word"
+    },
+    {
+     "confidence": 1,
+     "duration": 0.32,
+     "eos": false,
+     "start": 4.54,
+     "tags": [],
+     "text": "mas",
+     "type": "word"
+    },
+    {
+     "confidence": 1,
+     "duration": 0.4,
+     "eos": false,
+     "start": 4.89,
+     "tags": [],
+     "text": "quase",
+     "type": "word"
+    },
+    {
+     "confidence": 1,
+     "duration": 0.49,
+     "eos": false,
+     "start": 5.34,
+     "tags": [],
+     "text": "ninguem",
+     "type": "word"
+    },
+    {
+     "confidence": 1,
+     "duration": 0.32,
+     "eos": false,
+     "start": 5.87,
+     "tags": [],
+     "text": "faz",
+     "type": "word"
+    },
+    {
+     "confidence": 1,
+     "duration": 0.36,
+     "eos": false,
+     "start": 6.23,
+     "tags": [],
+     "text": "todo",
+     "type": "word"
+    },
+    {
+     "confidence": 1,
+     "duration": 0.32,
+     "eos": true,
+     "start": 6.63,
+     "tags": [],
+     "text": "dia.",
+     "type": "word"
+    },
+    {
+     "confidence": 1,
+     "duration": 0.22,
+     "eos": false,
+     "start": 7.49,
+     "tags": [],
+     "text": "A",
+     "type": "word"
+    },
+    {
+     "confidence": 1,
+     "duration": 0.4,
+     "eos": false,
+     "start": 7.76,
+     "tags": [],
+     "text": "gente",
+     "type": "word"
+    },
+    {
+     "confidence": 1,
+     "duration": 0.4,
+     "eos": false,
+     "start": 8.2,
+     "tags": [],
+     "text": "perde",
+     "type": "word"
+    },
+    {
+     "confidence": 1,
+     "duration": 0.32,
+     "eos": false,
+     "start": 8.65,
+     "tags": [],
+     "text": "40%",
+     "type": "word"
+    },
+    {
+     "confidence": 1,
+     "duration": 0.32,
+     "eos": false,
+     "start": 9.0,
+     "tags": [],
+     "text": "dos",
+     "type": "word"
+    },
+    {
+     "confidence": 1,
+     "duration": 0.54,
+     "eos": false,
+     "start": 9.36,
+     "tags": [],
+     "text": "clientes",
+     "type": "word"
+    },
+    {
+     "confidence": 1,
+     "duration": 0.32,
+     "eos": false,
+     "start": 9.94,
+     "tags": [],
+     "text": "por",
+     "type": "word"
+    },
+    {
+     "confidence": 1,
+     "duration": 0.49,
+     "eos": false,
+     "start": 10.29,
+     "tags": [],
+     "text": "demorar",
+     "type": "word"
+    },
+    {
+     "confidence": 1,
+     "duration": 0.22,
+     "eos": false,
+     "start": 10.83,
+     "tags": [],
+     "text": "a",
+     "type": "word"
+    },
+    {
+     "confidence": 1,
+     "duration": 0.58,
+     "eos": false,
+     "start": 11.09,
+     "tags": [],
+     "text": "responder,",
+     "type": "word"
+    },
+    {
+     "confidence": 1,
+     "duration": 0.22,
+     "eos": false,
+     "start": 12.23,
+     "tags": [],
+     "text": "e",
+     "type": "word"
+    },
+    {
+     "confidence": 1,
+     "duration": 0.22,
+     "eos": false,
+     "start": 12.49,
+     "tags": [],
+     "text": "o",
+     "type": "word"
+    },
+    {
+     "confidence": 1,
+     "duration": 0.49,
+     "eos": false,
+     "start": 12.76,
+     "tags": [],
+     "text": "cliente",
+     "type": "word"
+    },
+    {
+     "confidence": 1,
+     "duration": 0.32,
+     "eos": false,
+     "start": 13.29,
+     "tags": [],
+     "text": "nao",
+     "type": "word"
+    },
+    {
+     "confidence": 1,
+     "duration": 0.4,
+     "eos": true,
+     "start": 13.65,
+     "tags": [],
+     "text": "volta.",
+     "type": "word"
+    },
+    {
+     "confidence": 1,
+     "duration": 0.4,
+     "eos": false,
+     "start": 14.6,
+     "tags": [],
+     "text": "Entao",
+     "type": "word"
+    },
+    {
+     "confidence": 1,
+     "duration": 0.22,
+     "eos": false,
+     "start": 15.05,
+     "tags": [],
+     "text": "o",
+     "type": "word"
+    },
+    {
+     "confidence": 1,
+     "duration": 0.54,
+     "eos": false,
+     "start": 15.31,
+     "tags": [],
+     "text": "primeiro",
+     "type": "word"
+    },
+    {
+     "confidence": 1,
+     "duration": 0.4,
+     "eos": false,
+     "start": 15.89,
+     "tags": [],
+     "text": "passo",
+     "type": "word"
+    },
+    {
+     "confidence": 1,
+     "duration": 0.22,
+     "eos": false,
+     "start": 16.34,
+     "tags": [],
+     "text": "e",
+     "type": "word"
+    },
+    {
+     "confidence": 1,
+     "duration": 0.58,
+     "eos": false,
+     "start": 16.6,
+     "tags": [],
+     "text": "responder",
+     "type": "word"
+    },
+    {
+     "confidence": 1,
+     "duration": 0.45,
+     "eos": false,
+     "start": 17.23,
+     "tags": [],
+     "text": "rapido,",
+     "type": "word"
+    },
+    {
+     "confidence": 1,
+     "duration": 0.32,
+     "eos": false,
+     "start": 18.23,
+     "tags": [],
+     "text": "com",
+     "type": "word"
+    },
+    {
+     "confidence": 1,
+     "duration": 0.49,
+     "eos": false,
+     "start": 18.58,
+     "tags": [],
+     "text": "clareza",
+     "type": "word"
+    },
+    {
+     "confidence": 1,
+     "duration": 0.22,
+     "eos": false,
+     "start": 19.12,
+     "tags": [],
+     "text": "e",
+     "type": "word"
+    },
+    {
+     "confidence": 1,
+     "duration": 0.32,
+     "eos": false,
+     "start": 19.38,
+     "tags": [],
+     "text": "sem",
+     "type": "word"
+    },
+    {
+     "confidence": 1,
+     "duration": 0.58,
+     "eos": true,
+     "start": 19.74,
+     "tags": [],
+     "text": "enrolacao.",
+     "type": "word"
+    },
+    {
+     "confidence": 1,
+     "duration": 0.45,
+     "eos": false,
+     "start": 20.87,
+     "tags": [],
+     "text": "Depois,",
+     "type": "word"
+    },
+    {
+     "confidence": 1,
+     "duration": 0.54,
+     "eos": false,
+     "start": 21.87,
+     "tags": [],
+     "text": "confirme",
+     "type": "word"
+    },
+    {
+     "confidence": 1,
+     "duration": 0.22,
+     "eos": false,
+     "start": 22.45,
+     "tags": [],
+     "text": "o",
+     "type": "word"
+    },
+    {
+     "confidence": 1,
+     "duration": 0.32,
+     "eos": false,
+     "start": 22.72,
+     "tags": [],
+     "text": "que",
+     "type": "word"
+    },
+    {
+     "confidence": 1,
+     "duration": 0.22,
+     "eos": false,
+     "start": 23.07,
+     "tags": [],
+     "text": "o",
+     "type": "word"
+    },
+    {
+     "confidence": 1,
+     "duration": 0.49,
+     "eos": false,
+     "start": 23.34,
+     "tags": [],
+     "text": "cliente",
+     "type": "word"
+    },
+    {
+     "confidence": 1,
+     "duration": 0.49,
+     "eos": false,
+     "start": 23.87,
+     "tags": [],
+     "text": "precisa",
+     "type": "word"
+    },
+    {
+     "confidence": 1,
+     "duration": 0.4,
+     "eos": false,
+     "start": 24.41,
+     "tags": [],
+     "text": "antes",
+     "type": "word"
+    },
+    {
+     "confidence": 1,
+     "duration": 0.27,
+     "eos": false,
+     "start": 24.85,
+     "tags": [],
+     "text": "de",
+     "type": "word"
+    },
+    {
+     "confidence": 1,
+     "duration": 0.4,
+     "eos": false,
+     "start": 25.16,
+     "tags": [],
+     "text": "falar",
+     "type": "word"
+    },
+    {
+     "confidence": 1,
+     "duration": 0.27,
+     "eos": false,
+     "start": 25.61,
+     "tags": [],
+     "text": "de",
+     "type": "word"
+    },
+    {
+     "confidence": 1,
+     "duration": 0.4,
+     "eos": true,
+     "start": 25.92,
+     "tags": [],
+     "text": "preco.",
+     "type": "word"
+    }
+   ]
+  }
+ ],
+ "speakers": [
+  {
+   "id": "s1",
+   "name": "Exemplo"
+  }
+ ]
+}

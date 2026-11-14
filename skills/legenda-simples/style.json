@@ -1,0 +1,16 @@
+{
+  "_ajuda": "Tudo parametro. Tamanhos em pixels para 1080x1920 (escalam sozinhos em outras resolucoes).",
+  "referencia": "Estilo de podcast cortado: frase curta, branca, negrito, minuscula com inicial maiuscula, sombra suave, abaixo do rosto.",
+  "font_path": "Montserrat-Bold.ttf",
+  "mogrt_font": "Montserrat-Bold",
+  "mogrt_size": 66,
+  "y_center": 0.7,
+  "min_scale": 0.7,
+  "anim_speed": 400,
+  "safe_margin_x": 0.1,
+  "safe_margin_y": 0.1,
+  "safe_tolerance": 0.02,
+  "shadow_blur": 6,
+  "shadow_dy": 4,
+  "shadow_alpha": 0.55
+}
