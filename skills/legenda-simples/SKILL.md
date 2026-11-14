@@ -10,8 +10,8 @@ Uma frase por vez, texto branco em negrito, **minuscula com inicial maiuscula** 
 ## Pre-requisitos
 - Premiere Pro (testado no 2027/27.0; ExtendScript) e Python 3.9+ com `pip install -r requirements.txt` (Pillow).
 - Uma forma de executar ExtendScript no Premiere (MCP com `execute_extendscript` ou o bridge CEP por arquivo) — ver `docs/PREMIERE-BRIDGE.md` na raiz do repositorio.
-- Fonte **Montserrat Bold** instalada (gratis, Google Fonts). Se nao for achada, defina `CAPTION_FONT_DIR` ou coloque o `.ttf` em `fonts/` dentro da skill.
-- O modo padrao (PNG) **nao precisa de `.mogrt`**. So a alternativa `.mogrt` precisa de `assets/Simple_Text_WbW.mogrt` (veja `assets/LEIA-ME.md`).
+- Fonte **Montserrat Bold INSTALADA no sistema** (o Premiere precisa dela; o `.ttf` esta em `fonts/` — clique direito > Instalar para todos os usuarios e reinicie o Premiere). Se um script nao achar a fonte, defina `CAPTION_FONT_DIR`.
+- O modo padrao (PNG) **nao precisa de `.mogrt`**. A alternativa `.mogrt` usa `assets/Simple_Text_WbW.mogrt` (incluido; uso interno).
 
 ## Parametros (fonte da verdade: `style.json` e `RULES` em `scripts/plan_phrases.py`)
 - 9x16 (1080x1920). Montserrat Bold 66 px, branco, sombra suave (blur 6, dy 4, 55%). `y_center` 0,70.

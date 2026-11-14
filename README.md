@@ -16,14 +16,14 @@ Regras comuns:
 ## Requisitos
 - **Adobe Premiere Pro** com Transcricao (testado no 2027 / 27.0, Windows).
 - **Python 3.9+** e `pip install -r requirements.txt` (so Pillow).
-- **Fontes** instaladas: [Montserrat](https://fonts.google.com/specimen/Montserrat) (legenda-simples) e **Impact** (ja vem no Windows/macOS; legenda-impacto). Fonte fora do lugar padrao: defina `CAPTION_FONT_DIR`.
+- **Fontes INSTALADAS no sistema** (o Premiere precisa delas, senao troca por outra e o texto passa da margem): Montserrat Bold (legenda-simples) e Impact (legenda-impacto; ja vem no Windows/macOS). Os arquivos `Montserrat-Bold.ttf` e `Anton-Regular.ttf` estao em `skills/*/fonts/` (clique direito > Instalar para todos os usuarios; reinicie o Premiere). Fonte fora do lugar padrao: defina `CAPTION_FONT_DIR`.
 - **Uma forma de rodar ExtendScript no Premiere** (ver [docs/PREMIERE-BRIDGE.md](docs/PREMIERE-BRIDGE.md)): um MCP do Premiere com `execute_extendscript`, ou o bridge de arquivos CEP + [`tools/premiere_run.py`](tools/premiere_run.py).
 - [Claude Code](https://claude.com/claude-code) para usar como skill (os scripts tambem funcionam sozinhos, pela linha de comando).
-- Apenas a `legenda-impacto`: seu pacote de `.mogrt` palavra por palavra em `skills/legenda-impacto/assets/` (**nao incluido**, ver o `LEIA-ME.md` da pasta).
+- Os `.mogrt` da `legenda-impacto` ja estao em `skills/legenda-impacto/assets/` (uso interno, repositorio **privado**; nao redistribuir).
 
 ## Instalar (como skill do Claude Code)
 ```bash
-git clone https://github.com/gbrand-lab/premiere-legendas-skills.git
+git clone https://github.com/gbrand-lab/premiere-legendas-skills.git   # repositorio privado: entre no gh/git com uma conta da gbrand-lab com acesso
 cp -r premiere-legendas-skills/skills/legenda-simples ~/.claude/skills/
 cp -r premiere-legendas-skills/skills/legenda-impacto ~/.claude/skills/
 pip install -r premiere-legendas-skills/requirements.txt
@@ -41,6 +41,12 @@ python tools/premiere_run.py saida/png/stills_01.jsx          # ...um lote por v
 
 # edicao dinamica completa (cortes + zoom + legenda): ver skills/legenda-simples/SKILL.md, Opcao B
 ```
+
+## Checar o computador antes de legendar
+```bash
+python tools/preflight.py
+```
+Confere Pillow, **fontes instaladas no sistema**, o bridge do Premiere e se a sequencia ativa e 1080x1920. Se uma legenda sair da margem em outro PC, rode isto primeiro: as causas mais comuns sao fonte nao instalada (o Premiere troca por outra mais larga) e sequencia de outro tamanho.
 
 ## Testar sem o Premiere
 ```bash
@@ -60,4 +66,4 @@ Roda o pipeline das duas legendas numa transcricao de exemplo (`examples/sample_
 - A transcricao do Premiere pode errar palavras; revise o `blocks.json` antes de aplicar.
 
 ## Licenca
-[MIT](LICENSE). Fontes, `.mogrt` e marcas citadas sao de seus respectivos donos e nao fazem parte deste repositorio.
+Codigo: [MIT](LICENSE). Os `.mogrt` sao de terceiros e as fontes tem licenca propria (Montserrat e Anton: SIL OFL; Impact: Microsoft, nao incluida). Este repositorio e **privado, para uso interno da equipe**; nao o torne publico sem rever a licenca dos `.mogrt`.

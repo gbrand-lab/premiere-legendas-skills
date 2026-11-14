@@ -2,10 +2,8 @@ __pycache__/
 *.pyc
 .venv/
 # midia de usuario e saidas geradas
-*.mogrt
 *.mov
 *.mp4
 *.prproj
 out/
 saida/
-skills/*/fonts/

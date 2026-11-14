@@ -10,8 +10,8 @@ Modelo de legenda de alto impacto para Reels/Shorts/TikTok. Quando o usuario ped
 ## Pre-requisitos
 - Premiere Pro (testado no 2027/27.0; usa ExtendScript) e Python 3.9+ com `pip install -r requirements.txt` (Pillow).
 - Uma forma de executar ExtendScript no Premiere: um MCP do Premiere (`execute_extendscript`) **ou** o bridge de arquivos CEP — ver `docs/PREMIERE-BRIDGE.md` na raiz do repositorio.
-- Fontes: **Impact** (vem no Windows e no macOS) e, opcional, Anton. Se a fonte nao for achada, defina `CAPTION_FONT_DIR`.
-- **Pacote de `.mogrt` palavra por palavra (`*_WbW.mogrt`) em `assets/`** — nao vem no repositorio (veja `assets/LEIA-ME.md`). Sao modelos Essential Graphics com os controles "Anim Speed"/"Out Animation" e um campo de texto.
+- Fontes **instaladas no sistema** (o Premiere precisa delas): **Impact** (vem no Windows e no macOS) e, opcional, Anton (`fonts/`). Se um script nao achar a fonte, defina `CAPTION_FONT_DIR`.
+- **Pacote de `.mogrt` palavra por palavra (`*_WbW.mogrt`) em `assets/`** (ja incluido neste repositorio privado; veja `assets/LEIA-ME.md`). Use sempre os mesmos arquivos em todos os PCs: os tamanhos/margens foram calibrados com eles.
 
 ## Parametros (fonte da verdade: `style.json` e `scripts/plan_blocks.py`)
 - Formato 9x16 (1080x1920). Texto em MAIUSCULO, centralizado, `y_center` 0,54 (um pouco abaixo do meio).
